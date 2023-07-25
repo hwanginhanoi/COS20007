@@ -1,0 +1,15 @@
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.1P/3.1P/bin/Debug/net7.0/Clock
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.1P/3.1P/bin/Debug/net7.0/Clock.deps.json
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.1P/3.1P/bin/Debug/net7.0/Clock.runtimeconfig.json
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.1P/3.1P/bin/Debug/net7.0/Clock.dll
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.1P/3.1P/bin/Debug/net7.0/Clock.pdb
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.1P/3.1P/obj/Debug/net7.0/Clock.csproj.AssemblyReference.cache
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.1P/3.1P/obj/Debug/net7.0/Clock.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.1P/3.1P/obj/Debug/net7.0/Clock.AssemblyInfoInputs.cache
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.1P/3.1P/obj/Debug/net7.0/Clock.AssemblyInfo.cs
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.1P/3.1P/obj/Debug/net7.0/Clock.csproj.CoreCompileInputs.cache
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.1P/3.1P/obj/Debug/net7.0/Clock.dll
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.1P/3.1P/obj/Debug/net7.0/refint/Clock.dll
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.1P/3.1P/obj/Debug/net7.0/Clock.pdb
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.1P/3.1P/obj/Debug/net7.0/Clock.genruntimeconfig.cache
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.1P/3.1P/obj/Debug/net7.0/ref/Clock.dll

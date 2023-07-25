@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "DNyiTIuESAnk1TunDQnksnTS1O1IRoi5NPuXO+DgmvIlB8HHfEmWYYX+93pqfhuIlg0y3btXtxFCu73Cjnd0Xg==",
+  "success": true,
+  "projectFilePath": "/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/5.1P/SwinAdventure/SwinAdventure.csproj",
+  "expectedPackageFiles": [
+    "/Users/hwang/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/hwang/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512",
+    "/Users/hwang/.nuget/packages/nunit/3.13.3/nunit.3.13.3.nupkg.sha512",
+    "/Users/hwang/.nuget/packages/nunit3testadapter/4.2.1/nunit3testadapter.4.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}

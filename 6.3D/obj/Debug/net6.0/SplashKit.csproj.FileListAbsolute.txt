@@ -1,0 +1,15 @@
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/SKM/bin/Debug/net6.0/SplashKit
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/SKM/bin/Debug/net6.0/SplashKit.deps.json
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/SKM/bin/Debug/net6.0/SplashKit.runtimeconfig.json
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/SKM/bin/Debug/net6.0/SplashKit.dll
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/SKM/bin/Debug/net6.0/SplashKit.pdb
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/SKM/obj/Debug/net6.0/SplashKit.csproj.AssemblyReference.cache
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/SKM/obj/Debug/net6.0/SplashKit.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/SKM/obj/Debug/net6.0/SplashKit.AssemblyInfoInputs.cache
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/SKM/obj/Debug/net6.0/SplashKit.AssemblyInfo.cs
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/SKM/obj/Debug/net6.0/SplashKit.csproj.CoreCompileInputs.cache
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/SKM/obj/Debug/net6.0/SplashKit.dll
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/SKM/obj/Debug/net6.0/refint/SplashKit.dll
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/SKM/obj/Debug/net6.0/SplashKit.pdb
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/SKM/obj/Debug/net6.0/SplashKit.genruntimeconfig.cache
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/SKM/obj/Debug/net6.0/ref/SplashKit.dll

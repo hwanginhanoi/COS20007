@@ -1,0 +1,15 @@
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.2P/obj/Debug/net6.0/3.2P.csproj.AssemblyReference.cache
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.2P/obj/Debug/net6.0/3.2P.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.2P/obj/Debug/net6.0/3.2P.AssemblyInfoInputs.cache
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.2P/obj/Debug/net6.0/3.2P.AssemblyInfo.cs
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.2P/obj/Debug/net6.0/3.2P.csproj.CoreCompileInputs.cache
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.2P/bin/Debug/net6.0/3.2P
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.2P/bin/Debug/net6.0/3.2P.deps.json
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.2P/bin/Debug/net6.0/3.2P.runtimeconfig.json
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.2P/bin/Debug/net6.0/3.2P.dll
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.2P/bin/Debug/net6.0/3.2P.pdb
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.2P/obj/Debug/net6.0/3.2P.dll
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.2P/obj/Debug/net6.0/refint/3.2P.dll
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.2P/obj/Debug/net6.0/3.2P.pdb
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.2P/obj/Debug/net6.0/3.2P.genruntimeconfig.cache
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.2P/obj/Debug/net6.0/ref/3.2P.dll

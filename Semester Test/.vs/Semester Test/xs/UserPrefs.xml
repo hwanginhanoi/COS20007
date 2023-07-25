@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{93F61BFF-1CC1-4583-A784-19B6279396AF}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Semester Test/MinMaxSummary.cs">
+    <Files>
+      <File FileName="Semester Test/Program.cs" Line="26" Column="2" />
+      <File FileName="Semester Test/DataAnalyser.cs" />
+      <File FileName="Semester Test/MinMaxSummary.cs" Line="7" Column="16" />
+      <File FileName="Semester Test/SummaryStrategy.cs" />
+      <File FileName="Semester Test/AverageSummary.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Semester Test" expanded="True">
+            <Node name="Semester Test" expanded="True">
+              <Node name="MinMaxSummary.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Semester_220Test PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

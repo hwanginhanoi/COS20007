@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{ED95FB28-5EAB-459D-B146-F8BD47A87FFB}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Drawing.cs">
+    <Files>
+      <File FileName="MyRectangle.cs" Line="1" Column="1" IsPinned="True" />
+      <File FileName="Drawing.cs" Line="106" Column="1" IsPinned="True" />
+      <File FileName="Shape.cs" Line="1" Column="1" IsPinned="True" />
+      <File FileName="Program.cs" Line="70" Column="46" />
+      <File FileName="MyCircle.cs" />
+      <File FileName="MyLine.cs" Line="34" Column="50" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="4.2P" expanded="True">
+            <Node name="4.2P" expanded="True">
+              <Node name="logs" expanded="True" />
+              <Node name="Drawing.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.4.2P PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

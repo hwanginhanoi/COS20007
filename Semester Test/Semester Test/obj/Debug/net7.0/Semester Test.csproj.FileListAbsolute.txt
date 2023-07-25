@@ -1,0 +1,15 @@
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/Semester Test/Semester Test/obj/Debug/net7.0/Semester Test.csproj.AssemblyReference.cache
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/Semester Test/Semester Test/obj/Debug/net7.0/Semester Test.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/Semester Test/Semester Test/obj/Debug/net7.0/Semester Test.AssemblyInfoInputs.cache
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/Semester Test/Semester Test/obj/Debug/net7.0/Semester Test.AssemblyInfo.cs
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/Semester Test/Semester Test/obj/Debug/net7.0/Semester Test.csproj.CoreCompileInputs.cache
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/Semester Test/Semester Test/bin/Debug/net7.0/Semester Test
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/Semester Test/Semester Test/bin/Debug/net7.0/Semester Test.deps.json
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/Semester Test/Semester Test/bin/Debug/net7.0/Semester Test.runtimeconfig.json
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/Semester Test/Semester Test/bin/Debug/net7.0/Semester Test.dll
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/Semester Test/Semester Test/bin/Debug/net7.0/Semester Test.pdb
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/Semester Test/Semester Test/obj/Debug/net7.0/Semester Test.dll
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/Semester Test/Semester Test/obj/Debug/net7.0/refint/Semester Test.dll
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/Semester Test/Semester Test/obj/Debug/net7.0/Semester Test.pdb
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/Semester Test/Semester Test/obj/Debug/net7.0/Semester Test.genruntimeconfig.cache
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/Semester Test/Semester Test/obj/Debug/net7.0/ref/Semester Test.dll

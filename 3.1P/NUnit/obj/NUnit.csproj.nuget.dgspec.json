@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.1P/NUnit/NUnit.csproj": {}
+  },
+  "projects": {
+    "/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.1P/NUnit/NUnit.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.1P/NUnit/NUnit.csproj",
+        "projectName": "NUnit",
+        "projectPath": "/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.1P/NUnit/NUnit.csproj",
+        "packagesPath": "/Users/hwang/.nuget/packages/",
+        "outputPath": "/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/3.1P/NUnit/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hwang/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.3.2, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

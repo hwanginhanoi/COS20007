@@ -1,0 +1,5 @@
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/2.3P/obj/Debug/net6.0/2.3P.csproj.AssemblyReference.cache
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/2.3P/obj/Debug/net6.0/2.3P.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/2.3P/obj/Debug/net6.0/2.3P.AssemblyInfoInputs.cache
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/2.3P/obj/Debug/net6.0/2.3P.AssemblyInfo.cs
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/2.3P/obj/Debug/net6.0/2.3P.csproj.CoreCompileInputs.cache

@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/hwang/Downloads/COS20007-main/3.3P-Complete/SwinAdventure/SwinAdventureTests/SwinAdventureTests.csproj": {}
+  },
+  "projects": {
+    "/Users/hwang/Downloads/COS20007-main/3.3P-Complete/SwinAdventure/SwinAdventure/SwinAdventure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hwang/Downloads/COS20007-main/3.3P-Complete/SwinAdventure/SwinAdventure/SwinAdventure.csproj",
+        "projectName": "SwinAdventure",
+        "projectPath": "/Users/hwang/Downloads/COS20007-main/3.3P-Complete/SwinAdventure/SwinAdventure/SwinAdventure.csproj",
+        "packagesPath": "/Users/hwang/.nuget/packages/",
+        "outputPath": "/Users/hwang/Downloads/COS20007-main/3.3P-Complete/SwinAdventure/SwinAdventure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hwang/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/hwang/Downloads/COS20007-main/3.3P-Complete/SwinAdventure/SwinAdventureTests/SwinAdventureTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hwang/Downloads/COS20007-main/3.3P-Complete/SwinAdventure/SwinAdventureTests/SwinAdventureTests.csproj",
+        "projectName": "SwinAdventureTests",
+        "projectPath": "/Users/hwang/Downloads/COS20007-main/3.3P-Complete/SwinAdventure/SwinAdventureTests/SwinAdventureTests.csproj",
+        "packagesPath": "/Users/hwang/.nuget/packages/",
+        "outputPath": "/Users/hwang/Downloads/COS20007-main/3.3P-Complete/SwinAdventure/SwinAdventureTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hwang/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/hwang/Downloads/COS20007-main/3.3P-Complete/SwinAdventure/SwinAdventure/SwinAdventure.csproj": {
+                "projectPath": "/Users/hwang/Downloads/COS20007-main/3.3P-Complete/SwinAdventure/SwinAdventure/SwinAdventure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

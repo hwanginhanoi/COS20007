@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{ED95FB28-5EAB-459D-B146-F8BD47A87FFB}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+    <Files>
+      <File FileName="Program.cs" Line="60" Column="47" />
+      <File FileName="myeasylog.log" />
+      <File FileName="Grid.cs" />
+      <File FileName="Tetromino.cs" />
+      <File FileName="Global.cs" />
+      <File FileName="Tetrominoes/TTetromino.cs" />
+      <File FileName="Queue.cs" />
+      <File FileName="Position.cs" />
+      <File FileName="GameState.cs" />
+      <File FileName="Tetrominoes/LTetromino.cs" />
+      <File FileName="Tetrominoes/ZTetromino.cs" />
+      <File FileName="Tetrominoes/STetromino.cs" />
+      <File FileName="Tetrominoes/ITetromino.cs" />
+      <File FileName="Tetrominoes/JTetromino.cs" />
+      <File FileName="Tetrominoes/OTetromino.cs" />
+      <File FileName="UI.cs" />
+      <File FileName="../../../../../../usr/local/share/dotnet/sdk/7.0.306/Microsoft.Common.CurrentVersion.targets" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Custom Project" expanded="True">
+            <Node name="Custom Project" expanded="True">
+              <Node name="Tetrominoes" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Custom_220Project PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{305C5CAA-1A2A-4AB2-A7C1-68D50F91533B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SwinAdventure/Program.cs">
+    <Files>
+      <File FileName="SwinAdventure/Look Command.cs" />
+      <File FileName="SwinAdventure/Player.cs" />
+      <File FileName="SwinAdventureTests/TestItem.cs" />
+      <File FileName="SwinAdventure/Program.cs" Line="1" Column="1" />
+      <File FileName="SwinAdventureTests/TestPlayer.cs" />
+      <File FileName="SwinAdventure/Inventory.cs" />
+      <File FileName="SwinAdventureTests/TestLookCommand.cs" />
+      <File FileName="SwinAdventureTests/Usings.cs" />
+      <File FileName="SwinAdventure/Item.cs" />
+      <File FileName="SwinAdventure/Bag.cs" />
+      <File FileName="SwinAdventure/Command.cs" />
+      <File FileName="SwinAdventureTests/TestBag.cs" />
+      <File FileName="SwinAdventureTests/TestIdentifiableObject.cs" />
+      <File FileName="SwinAdventure/IHaveInventory.cs" />
+      <File FileName="SwinAdventure/IdentifiableObject.cs" />
+      <File FileName="SwinAdventure/GameObject.cs" />
+      <File FileName="SwinAdventure/Location.cs" />
+      <File FileName="SwinAdventureTests/TestLocation.cs" />
+      <File FileName="SwinAdventure/Path.cs" />
+      <File FileName="SwinAdventure/Move.cs" />
+      <File FileName="SwinAdventureTests/TestPath.cs" />
+      <File FileName="SwinAdventureTests/TestInventory.cs" />
+      <File FileName="../../../../../../usr/local/share/dotnet/sdk/7.0.304/Microsoft.Common.CurrentVersion.targets" />
+      <File FileName="SwinAdventure/CommandProcessor.cs" />
+      <File FileName="SwinAdventureTests/TestCommandProcessor.cs" />
+      <File FileName="SwinAdventure/Global.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SwinAdventure PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
