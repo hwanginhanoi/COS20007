@@ -7,7 +7,7 @@
         public int Row { get; } // Readonly property for the number of rows in the grid
         public int Col { get; } // Readonly property for the number of columns in the grid
 
-
+        // Indexer to access grid cells using row and column indices
         public int this[int r, int c]
 		{
 			get
@@ -108,6 +108,17 @@
 
             return cleared;
         }
-	}
+
+        public void ClearGrid()
+        {
+            for (int r = 0; r < Row; r++)
+            {
+                for (int c = 0; c < Col; c++)
+                {
+                    grid[r, c] = 0;
+                }
+            }
+        }
+    }
 }
 

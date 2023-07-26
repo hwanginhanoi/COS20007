@@ -9,8 +9,8 @@ namespace Custom_Project
     {
         static void Main()
         {
-            const int WindowWidth = 400;
-            const int WindowHeight = 800;
+            const int WindowWidth = 600;
+            const int WindowHeight = 700;
 
             SplashKit.OpenWindow("Tetris Game", WindowWidth, WindowHeight);
             GameState gameState = new GameState();
@@ -26,7 +26,16 @@ namespace Custom_Project
 
             while (!SplashKit.WindowCloseRequested("Tetris Game"))
             {
+                SplashKit.ProcessEvents();
+                SplashKit.ClearScreen(Color.Black);
+
+                Console.WriteLine($"Time since last move down: {gameTimer.Elapsed.TotalSeconds - timeSinceLastMoveDown}");
+                Console.WriteLine($"Next Tetromino: {gameState.Queue.NextTetromino.Id}");
+
+                // ... (existing code)
+
                 // Calculate the elapsed time since the last frame
+            
 
                 // Check if it's time to move the Tetromino down automatically
                 if (gameTimer.Elapsed.TotalSeconds - timeSinceLastMoveDown >= MoveDownInterval)
@@ -63,27 +72,33 @@ namespace Custom_Project
 
                 if (SplashKit.KeyTyped(KeyCode.HKey))
                 {
-                    gameState.MoveDown();
-                    gameState.MoveDown();
-                    gameState.MoveDown();
-                    gameState.MoveDown();
-                    gameState.MoveDown();
-                    gameState.MoveDown();
-                    gameState.MoveDown();
+                    gameState.DropBlock();
                 }
 
                 // Check if the game is over
                 isGameOver = gameState.GameOver;
 
                 // Clear the screen and draw the UI
-                SplashKit.ClearScreen();
                 gameUI.DrawUI();
 
+                if (isGameOver)
+                {
+                    gameUI.GameOverScreen();
+
+                    // Handle restart functionality when 'R' key is pressed
+                    if (SplashKit.KeyTyped(KeyCode.RKey))
+                    {
+                        gameState.RestartGame();
+                        isGameOver = false;
+                    }
+                }
+
                 SplashKit.RefreshScreen(70);
-                SplashKit.ProcessEvents();
             }
 
             SplashKit.CloseWindow("Tetris Game");
         }
+
+
     }
 }

@@ -48,15 +48,6 @@
             }
         }
 
-
-        private bool holdable;
-
-        public bool Holdable
-        {
-            get { return holdable; }
-            private set { holdable = value; }
-        }
-
         public Grid Grid
         {
             get;
@@ -157,7 +148,23 @@
                 }
             }
 
-            Score += Grid.ClearFullRow();
+            int lineClears = Grid.ClearFullRow();
+
+            switch (lineClears)
+            {
+                case 1:
+                    Score += 100; // Single Line Clear: 100 Points
+                    break;
+                case 2:
+                    Score += 300; // Double Line Clear: 300 Points
+                    break;
+                case 3:
+                    Score += 500; // Triple Line Clear: 500 Points
+                    break;
+                case 4:
+                    Score += 800; // Tetris Line Clear: 800 Points
+                    break;
+            }
 
             if (IsGameOver())
             {
@@ -166,9 +173,46 @@
             else
             {
                 CurrentTetromino = Queue.GetAndUpdate();
-                Holdable = true;
             }
         }
 
+        private int TileDropDistance(Position position)
+        {
+            int drop = 0;
+
+            while (Grid.IsEmpty(position.Row + drop + 1, position.Col))
+            {
+                drop++;
+            }
+
+            return drop;
+        }
+
+        public int BlockDropDistance()
+        {
+            int drop = Grid.Row;
+
+            foreach (Position position in CurrentTetromino.TilePosition())
+            {
+                drop = Math.Min(drop, TileDropDistance(position));
+            }
+
+            return drop;
+        }
+
+        public void DropBlock()
+        {
+            CurrentTetromino.Move(BlockDropDistance(), 0);
+            PlaceBlock();
+        }
+
+        public void RestartGame()
+        {
+            // Reset all the game state variables
+            CurrentTetromino = Queue.GetAndUpdate();
+            GameOver = false;
+            Score = 0;
+            Grid.ClearGrid(); // Assuming you have a ClearGrid() method in the Grid class to reset the grid to an empty state
+        }
     }
 }

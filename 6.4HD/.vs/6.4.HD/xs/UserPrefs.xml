@@ -4,16 +4,24 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="Queue.cs">
     <Files>
-      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="35" Column="39" />
       <File FileName="Global.cs" Line="1" Column="1" />
       <File FileName="Tetromino.cs" Line="1" Column="1" />
-      <File FileName="Queue.cs" Line="15" Column="1" />
+      <File FileName="Queue.cs" Line="24" Column="23" />
+      <File FileName="UI.cs" Line="88" Column="1" />
+      <File FileName="GameState.cs" Line="1" Column="1" />
+      <File FileName="Position.cs" Line="1" Column="1" />
+      <File FileName="myeasylog.log" Line="1" Column="1" />
+      <File FileName="Grid.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="6.4.HD" expanded="True">
-            <Node name="6.4HD" expanded="True" selected="True" />
+          <Node name="6.4.HD">
+            <Node name="6.4HD">
+              <Node name="Tetrominoes" expanded="True" />
+              <Node name="Queue.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
