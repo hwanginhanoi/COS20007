@@ -4,6 +4,10 @@
     {
         private Tetromino currentTetromino;
 
+        private bool isGameOver;
+
+        private int score;
+
         public Tetromino CurrentTetromino
         {
             get
@@ -19,33 +23,16 @@
             }
         }
 
-        private bool isGameOver;
-
         public bool GameOver
         {
             get { return isGameOver; }
             private set { isGameOver = value; }
         }
 
-        private int score;
-
         public int Score
         {
             get { return score; }
             private set { score = value; }
-        }
-
-        public Tetromino HoldTetromino
-        {
-            get
-            {
-                return HoldTetromino;
-            }
-
-            private set
-            {
-                HoldTetromino = value;
-            }
         }
 
         public Grid Grid
@@ -78,7 +65,7 @@
             return true;
         }
 
-        public void RotateBlockCW()
+        public void RotateTetrominoCW()
         {
             CurrentTetromino.RotateCW();
 
@@ -88,7 +75,7 @@
             }
         }
 
-        public void RotateBlockCCW()
+        public void RotateTetrominoCCW()
         {
             CurrentTetromino.RotateCCW();
 

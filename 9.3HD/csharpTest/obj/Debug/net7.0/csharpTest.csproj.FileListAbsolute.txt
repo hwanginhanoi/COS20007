@@ -1,0 +1,15 @@
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/9.3HD/csharpTest/bin/Debug/net7.0/csharpTest
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/9.3HD/csharpTest/bin/Debug/net7.0/csharpTest.deps.json
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/9.3HD/csharpTest/bin/Debug/net7.0/csharpTest.runtimeconfig.json
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/9.3HD/csharpTest/bin/Debug/net7.0/csharpTest.dll
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/9.3HD/csharpTest/bin/Debug/net7.0/csharpTest.pdb
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/9.3HD/csharpTest/obj/Debug/net7.0/csharpTest.csproj.AssemblyReference.cache
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/9.3HD/csharpTest/obj/Debug/net7.0/csharpTest.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/9.3HD/csharpTest/obj/Debug/net7.0/csharpTest.AssemblyInfoInputs.cache
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/9.3HD/csharpTest/obj/Debug/net7.0/csharpTest.AssemblyInfo.cs
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/9.3HD/csharpTest/obj/Debug/net7.0/csharpTest.csproj.CoreCompileInputs.cache
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/9.3HD/csharpTest/obj/Debug/net7.0/csharpTest.dll
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/9.3HD/csharpTest/obj/Debug/net7.0/refint/csharpTest.dll
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/9.3HD/csharpTest/obj/Debug/net7.0/csharpTest.pdb
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/9.3HD/csharpTest/obj/Debug/net7.0/csharpTest.genruntimeconfig.cache
+/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/9.3HD/csharpTest/obj/Debug/net7.0/ref/csharpTest.dll

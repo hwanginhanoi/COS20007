@@ -5,6 +5,9 @@
         private const int CellSize = 40; // Size of each cell in pixels
         private const int BoardX = 50;   // X-coordinate of the top-left corner of the game board
         private const int BoardY = 50;   // Y-coordinate of the top-left corner of the game board
+        private const int WindowWidth = 900; // Set the window width
+        private const int WindowHeight = 900; // Set the window height
+
 
         private GameState _gameState;
 
@@ -144,41 +147,90 @@
             }
         }
 
-        public void DrawNextTetromino(Queue queue)
+        public void DrawNextTetrominoPreview(Tetromino nextTetromino)
         {
-            Tetromino next = queue.NextTetromino;
+            // Calculate the position where you want to draw the next Tetromino preview
+            int nextTetrominoX = 630; // Set the X-coordinate
+            int nextTetrominoY = 100; // Set the Y-coordinate
 
-            // Calculate the position where you want to draw the next Tetromino
-            int nextTetrominoX = 400; // Set the X-coordinate
-            int nextTetrominoY = 400; // Set the Y-coordinate
+            int borderWidth = 16; // Adjust this value to control the thickness of the border
 
-            // Draw the cells of the Tetromino in the main game window
-            foreach (Position position in next.TilePosition())
+            for (int i = 0; i < borderWidth; i++)
+            {
+                int x = nextTetrominoX - i - 100;
+                int y = nextTetrominoY - i - 50;
+                int width =  300 + 2 * i;
+                int height = 180 + 2 * i;
+                SplashKit.DrawRectangle(SplashKit.RGBColor(176, 247, 234), x, y, width, height);
+            }
+
+            for (int i = 0; i < 8; i++)
+            {
+                int x = nextTetrominoX - i - 100 - 16;
+                int y = nextTetrominoY - i - 50 - 16;
+                int width = 300 + 32 + 2 * i;
+                int height = 180 + 32 + 2 * i;
+                SplashKit.DrawRectangle(Color.White, x, y, width, height);
+            }
+
+
+            // Draw the cells of the Tetromino preview
+            int offSetX = nextTetromino.TilePosition().ElementAt(0).Col * CellSize;
+            int offSetY = nextTetromino.TilePosition().ElementAt(0).Row * CellSize;
+            foreach (Position position in nextTetromino.TilePosition())
             {
                 int row = position.Row;
                 int col = position.Col;
-                int cellValue = next.Id;
+                int cellValue = nextTetromino.Id;
                 Color cellColor = GetCellColor(cellValue);
 
-                int drawX = nextTetrominoX + col * CellSize;
-                int drawY = nextTetrominoY + row * CellSize;
+                int drawX = nextTetrominoX + col * CellSize - offSetX;
+                int drawY = nextTetrominoY + row * CellSize - offSetY;
 
                 // Draw the cell with a black border
                 SplashKit.FillRectangle(cellColor, drawX, drawY, CellSize, CellSize);
                 SplashKit.FillRectangle(Color.Black, drawX + CellSize - 4, drawY, 4, CellSize);
                 SplashKit.FillRectangle(Color.Black, drawX, drawY + CellSize - 4, CellSize, 4);
+
+                SplashKit.FillRectangle(Color.White, drawX, drawY, 4, 4);
+                SplashKit.FillRectangle(Color.White, drawX + 4, drawY + 4, 4, 4);
+                SplashKit.FillRectangle(Color.White, drawX + 8, drawY + 4, 4, 4);
+                SplashKit.FillRectangle(Color.White, drawX + 4, drawY + 8, 4, 4);
             }
         }
 
         public void DrawScore(int score)
         {
-            SplashKit.DrawText("Score: " + score, Color.Black, "Arial", 18, 500, 500);
+            int scoreX = 500;
+            int scoreY = 500;
+
+            SplashKit.DrawText("Score: " + score, Color.Black, "Arial", 18, scoreX, scoreY);
+
+            int borderWidth = 16; // Adjust this value to control the thickness of the border
+
+            for (int i = 0; i < borderWidth; i++)
+            {
+                int x = scoreX - i - 100;
+                int y = scoreY - i - 50;
+                int width = 300 + 2 * i;
+                int height = 180 + 2 * i;
+                SplashKit.DrawRectangle(SplashKit.RGBColor(176, 247, 234), x, y, width, height);
+            }
+
+            for (int i = 0; i < 8; i++)
+            {
+                int x = scoreX - i - 100 - 16;
+                int y = scoreY - i - 50 - 16;
+                int width = 300 + 32 + 2 * i;
+                int height = 180 + 32 + 2 * i;
+                SplashKit.DrawRectangle(Color.White, x, y, width, height);
+            }
         }
 
         public void DrawUI()
         {
             DrawGameBoard();
-            DrawNextTetromino(_gameState.Queue);
+            DrawNextTetrominoPreview(_gameState.Queue.NextTetromino); // Draw the next Tetromino preview
             DrawFallingTetromino(_gameState.CurrentTetromino);
             DrawScore(_gameState.Score); // Draw the score after other elements
         }

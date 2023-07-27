@@ -52,11 +52,11 @@ namespace Custom_Project
                 // Handle user input for rotation
                 if (SplashKit.KeyTyped(KeyCode.UpKey))
                 {
-                    gameState.RotateBlockCW();
+                    gameState.RotateTetrominoCW();
                 }
                 else if (SplashKit.KeyTyped(KeyCode.SpaceKey))
                 {
-                    gameState.RotateBlockCCW();
+                    gameState.RotateTetrominoCCW();
                 }
 
                 // Handle user input for down movement
