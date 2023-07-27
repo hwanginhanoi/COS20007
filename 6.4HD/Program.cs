@@ -1,16 +1,11 @@
-using SplashKitSDK;
-using System.Diagnostics;
-using System.Diagnostics;
-using System.Threading;
-
 namespace Custom_Project
 {
     public class Program
     {
         static void Main()
         {
-            const int WindowWidth = 600;
-            const int WindowHeight = 700;
+            const int WindowWidth = 900;
+            const int WindowHeight = 900;
 
             SplashKit.OpenWindow("Tetris Game", WindowWidth, WindowHeight);
             GameState gameState = new GameState();
@@ -27,7 +22,7 @@ namespace Custom_Project
             while (!SplashKit.WindowCloseRequested("Tetris Game"))
             {
                 SplashKit.ProcessEvents();
-                SplashKit.ClearScreen(Color.Black);
+                SplashKit.ClearScreen(SplashKit.RGBColor(116, 116, 116));
 
                 Console.WriteLine($"Time since last move down: {gameTimer.Elapsed.TotalSeconds - timeSinceLastMoveDown}");
                 Console.WriteLine($"Next Tetromino: {gameState.Queue.NextTetromino.Id}");
