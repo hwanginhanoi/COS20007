@@ -2,14 +2,14 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="UI.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Program.cs" Line="12" Column="51" />
+      <File FileName="Program.cs" Line="10" Column="20" />
       <File FileName="Global.cs" />
       <File FileName="Tetromino.cs" />
       <File FileName="Queue.cs" />
       <File FileName="UI.cs" Line="223" Column="31" />
-      <File FileName="GameState.cs" Line="1" Column="1" />
+      <File FileName="GameState.cs" />
       <File FileName="Position.cs" />
       <File FileName="myeasylog.log" />
       <File FileName="Grid.cs" />
@@ -24,10 +24,9 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="6.4.HD" expanded="True">
+          <Node name="6.4.HD">
             <Node name="6.4HD">
-              <Node name="lib" expanded="True" />
-              <Node name="UI.cs" selected="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>

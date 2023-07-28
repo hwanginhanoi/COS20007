@@ -2,7 +2,7 @@ namespace Custom_Project
 {
     public class Program
     {
-        static void Main()
+        public static void Main()
         {
             const int WindowWidth = 900;
             const int WindowHeight = 900;
@@ -11,7 +11,8 @@ namespace Custom_Project
             GameState gameState = new GameState();
             GameUI gameUI = new GameUI(gameState);
 
-            const double MoveDownInterval = 0.5; // Adjust this value to control the speed of downward movement
+            double initialMoveDownInterval = 0.5; // Initial speed of downward movement
+            double moveDownInterval = initialMoveDownInterval; // Current speed of downward movement
             double timeSinceLastMoveDown = 0;
 
             Stopwatch gameTimer = new Stopwatch();
@@ -19,24 +20,34 @@ namespace Custom_Project
 
             bool isGameOver = false;
 
+            int level = 1; // Current level
+            double timeToIncreaseDifficulty = 5.0; // Time interval to increase the difficulty (in seconds)
+            double timeSinceLastDifficultyIncrease = 0;
+
+            const int maximumLevel = 10; // Set the maximum difficulty level
+
             while (!SplashKit.WindowCloseRequested("Tetris Game"))
             {
                 SplashKit.ProcessEvents();
                 SplashKit.ClearScreen(SplashKit.RGBColor(116, 116, 116));
 
-                Console.WriteLine($"Time since last move down: {gameTimer.Elapsed.TotalSeconds - timeSinceLastMoveDown}");
-                Console.WriteLine($"Next Tetromino: {gameState.Queue.NextTetromino.Id}");
-
-                // ... (existing code)
-
-                // Calculate the elapsed time since the last frame
-            
-
                 // Check if it's time to move the Tetromino down automatically
-                if (gameTimer.Elapsed.TotalSeconds - timeSinceLastMoveDown >= MoveDownInterval)
+                if (gameTimer.Elapsed.TotalSeconds - timeSinceLastMoveDown >= moveDownInterval)
                 {
                     gameState.MoveDown(); // Move the Tetromino down
                     timeSinceLastMoveDown = gameTimer.Elapsed.TotalSeconds; // Update the time of the last move
+                }
+
+                // Calculate the elapsed time since the last frame
+                double deltaTime = gameTimer.Elapsed.TotalSeconds - timeSinceLastDifficultyIncrease;
+
+                // Check if it's time to increase the difficulty
+                if (deltaTime >= timeToIncreaseDifficulty && level < maximumLevel)
+                {
+                    level++; // Increase the level
+                    gameUI.level++;
+                    moveDownInterval = initialMoveDownInterval / Math.Sqrt(level); // Reduce the moveDownInterval to increase difficulty
+                    timeSinceLastDifficultyIncrease = gameTimer.Elapsed.TotalSeconds; // Update the time of the last difficulty increase
                 }
 
                 // Handle user input for left and right movement
@@ -85,10 +96,14 @@ namespace Custom_Project
                     {
                         gameState.RestartGame();
                         isGameOver = false;
+                        level = 1; // Reset the level to 1
+                        gameUI.level = 1;
+                        moveDownInterval = initialMoveDownInterval; // Reset the moveDownInterval to its initial value
+                        timeSinceLastDifficultyIncrease = gameTimer.Elapsed.TotalSeconds; // Reset the time of the last difficulty increase
                     }
                 }
 
-                SplashKit.RefreshScreen(70);
+                SplashKit.RefreshScreen(60);
             }
 
             SplashKit.CloseWindow("Tetris Game");
