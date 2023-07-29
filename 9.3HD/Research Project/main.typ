@@ -1,14 +1,14 @@
 #import "template.typ": *
 #show: ieee.with(
-  title: "COS20007 OOP Research Project",
+  title: "Comparing the OOP performance between Python and C#",
   abstract: [
-       "This study compares Python and C`#`'s object-oriented programming (OOP) capabilities. In both programming environments, the study evaluates the effectiveness and execution speed of OOP concepts. We aim to identify which language performs better for OOP tasks through extensive testing and analysis. The findings of this study will be helpful to developers in deciding which language is best for OOP-based projects.
+       This study compares Python and C`#`'s object-oriented programming (OOP) capabilities. In both programming environments, the study evaluates the effectiveness and execution speed of OOP concepts. We aim to identify which language performs better for OOP tasks through extensive testing and analysis. The findings of this study will be helpful to developers in deciding which language is best for OOP-based projects.
   ],
   authors: (
     (
       name: "Luu Tuan Hoang",
       studentid: [104180391],
-      class: [Tutor class: 8.00am Saturday],
+      class: [Tutor class: 8.00am Tuesday],
       organization: [Swinburne University of Technology],
       location: [Hanoi, Vietnam],
       email: "104180391@student.swin.edu.au"
@@ -209,4 +209,4 @@ Based on the results, I suggest using C\# for real-time processing, computationa
 Several limitations warrant consideration. The research focused on specific OOP tasks, and the findings may not fully encompass all scenarios. Additionally, other factors like third-party library usage and multi-threading were not extensively explored. Future research could investigate performance under diverse hardware architectures and explore specific optimizations for both languages to narrow the performance gap further.
 
 = Conclusion
-The comparison of Python's and C\#'s OOP performance on the M1 Pro 8-core CPU showed that C\# is superior to Python in terms of execution speed and memory efficiency. The particular needs and development priorities of the project should serve as a guide when choosing the language. Developers can make wise decisions that result in effective and high-performing software solutions by knowing the benefits and drawbacks of each language.
+The comparison of Python's and C\#'s OOP performance on the M1 Pro 8-c\ore CPU showed that C\# is superior to\ Python in terms of execution speed and memory efficiency. The particular needs and development priorities of the project should serve as a guide when choosing the language. Developers can make wise decisions that result in effective and high-performing software solutions by knowing the benefits and drawbacks of each language.
