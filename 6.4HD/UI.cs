@@ -101,121 +101,71 @@
                 case 1:
                     switch (cellValue)
                     {
-                        case 1: return SplashKit.RGBColor(219, 2, 206);
-                        case 2: return SplashKit.RGBColor(248, 120, 248);
-                        case 3: return SplashKit.RGBColor(219, 2, 206);
-                        case 4: return SplashKit.RGBColor(248, 120, 248);
-                        case 5: return SplashKit.RGBColor(219, 2, 206);
-                        case 6: return SplashKit.RGBColor(248, 120, 248);
-                        case 7: return SplashKit.RGBColor(219, 2, 206);
+                        case 1: case 3: case 5: case 7: return SplashKit.RGBColor(219, 2, 206);
+                        case 2: case 4: case 6: return SplashKit.RGBColor(248, 120, 248);
                         default: return Color.Black; // Empty cell color
                     }
                 case 2:
                     switch (cellValue)
                     {
-                        case 1: return Color.AliceBlue;
-                        case 2: return Color.AliceBlue;
-                        case 3: return Color.AliceBlue;
-                        case 4: return Color.AliceBlue;
-                        case 5: return Color.AliceBlue;
-                        case 6: return Color.AliceBlue;
-                        case 7: return Color.AliceBlue;
+                        case 1: case 3: case 5: case 7: return SplashKit.RGBColor(219, 2, 206);
+                        case 2: case 4: case 6: return SplashKit.RGBColor(248, 120, 248);
                         default: return Color.Black; // Empty cell color
                     }
                 case 3:
                     switch (cellValue)
                     {
-                        case 1: return Color.AliceBlue;
-                        case 2: return Color.AliceBlue;
-                        case 3: return Color.AliceBlue;
-                        case 4: return Color.AliceBlue;
-                        case 5: return Color.AliceBlue;
-                        case 6: return Color.AliceBlue;
-                        case 7: return Color.AliceBlue;
+                        case 1: case 3: case 5: case 7: return SplashKit.RGBColor(219, 2, 206);
+                        case 2: case 4: case 6: return SplashKit.RGBColor(248, 120, 248);
                         default: return Color.Black; // Empty cell color
                     }
                 case 4:
                     switch (cellValue)
                     {
-                        case 1: return Color.AliceBlue;
-                        case 2: return Color.AliceBlue;
-                        case 3: return Color.AliceBlue;
-                        case 4: return Color.AliceBlue;
-                        case 5: return Color.AliceBlue;
-                        case 6: return Color.AliceBlue;
-                        case 7: return Color.AliceBlue;
+                        case 1: case 3: case 5: case 7: return SplashKit.RGBColor(219, 2, 206);
+                        case 2: case 4: case 6: return SplashKit.RGBColor(248, 120, 248);
                         default: return Color.Black; // Empty cell color
                     }
                 case 5:
                     switch (cellValue)
                     {
-                        case 1: return Color.AliceBlue;
-                        case 2: return Color.AliceBlue;
-                        case 3: return Color.AliceBlue;
-                        case 4: return Color.AliceBlue;
-                        case 5: return Color.AliceBlue;
-                        case 6: return Color.AliceBlue;
-                        case 7: return Color.AliceBlue;
+                        case 1: case 3: case 5: case 7: return SplashKit.RGBColor(219, 2, 206);
+                        case 2: case 4: case 6: return SplashKit.RGBColor(248, 120, 248);
                         default: return Color.Black; // Empty cell color
                     }
                 case 6:
                     switch (cellValue)
                     {
-                        case 1: return Color.AliceBlue;
-                        case 2: return Color.AliceBlue;
-                        case 3: return Color.AliceBlue;
-                        case 4: return Color.AliceBlue;
-                        case 5: return Color.AliceBlue;
-                        case 6: return Color.AliceBlue;
-                        case 7: return Color.AliceBlue;
+                        case 1: case 3: case 5: case 7: return SplashKit.RGBColor(219, 2, 206);
+                        case 2: case 4: case 6: return SplashKit.RGBColor(248, 120, 248);
                         default: return Color.Black; // Empty cell color
                     }
                 case 7:
                     switch (cellValue)
                     {
-                        case 1: return Color.AliceBlue;
-                        case 2: return Color.AliceBlue;
-                        case 3: return Color.AliceBlue;
-                        case 4: return Color.AliceBlue;
-                        case 5: return Color.AliceBlue;
-                        case 6: return Color.AliceBlue;
-                        case 7: return Color.AliceBlue;
+                        case 1: case 3: case 5: case 7: return SplashKit.RGBColor(219, 2, 206);
+                        case 2: case 4: case 6: return SplashKit.RGBColor(248, 120, 248);
                         default: return Color.Black; // Empty cell color
                     }
                 case 8:
                     switch (cellValue)
                     {
-                        case 1: return Color.AliceBlue;
-                        case 2: return Color.AliceBlue;
-                        case 3: return Color.AliceBlue;
-                        case 4: return Color.AliceBlue;
-                        case 5: return Color.AliceBlue;
-                        case 6: return Color.AliceBlue;
-                        case 7: return Color.AliceBlue;
+                        case 1: case 3: case 5: case 7: return SplashKit.RGBColor(219, 2, 206);
+                        case 2: case 4: case 6: return SplashKit.RGBColor(248, 120, 248);
                         default: return Color.Black; // Empty cell color
                     }
                 case 9:
                     switch (cellValue)
                     {
-                        case 1: return Color.AliceBlue;
-                        case 2: return Color.AliceBlue;
-                        case 3: return Color.AliceBlue;
-                        case 4: return Color.AliceBlue;
-                        case 5: return Color.AliceBlue;
-                        case 6: return Color.AliceBlue;
-                        case 7: return Color.AliceBlue;
+                        case 1: case 3: case 5: case 7: return SplashKit.RGBColor(219, 2, 206);
+                        case 2: case 4: case 6: return SplashKit.RGBColor(248, 120, 248);
                         default: return Color.Black; // Empty cell color
                     }
                 case 10:
                     switch (cellValue)
                     {
-                        case 1: return Color.AliceBlue;
-                        case 2: return Color.AliceBlue;
-                        case 3: return Color.AliceBlue;
-                        case 4: return Color.AliceBlue;
-                        case 5: return Color.AliceBlue;
-                        case 6: return Color.AliceBlue;
-                        case 7: return Color.AliceBlue;
+                        case 1: case 3: case 5: case 7: return SplashKit.RGBColor(219, 2, 206);
+                        case 2: case 4: case 6: return SplashKit.RGBColor(248, 120, 248);
                         default: return Color.Black; // Empty cell color
                     }
                 default:

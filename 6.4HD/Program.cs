@@ -21,7 +21,7 @@ namespace Custom_Project
             bool isGameOver = false;
 
             int level = 1; // Current level
-            double timeToIncreaseDifficulty = 5.0; // Time interval to increase the difficulty (in seconds)
+            double timeToIncreaseDifficulty = 30.0; // Time interval to increase the difficulty (in seconds)
             double timeSinceLastDifficultyIncrease = 0;
 
             const int maximumLevel = 10; // Set the maximum difficulty level
@@ -108,7 +108,5 @@ namespace Custom_Project
 
             SplashKit.CloseWindow("Tetris Game");
         }
-
-
     }
 }
