@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{ED95FB28-5EAB-459D-B146-F8BD47A87FFB}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+    <Files>
+      <File FileName="Program.cs" Line="98" Column="1" />
+      <File FileName="Global.cs" Line="7" Column="8" />
+      <File FileName="Tetromino.cs" Line="2" Column="2" />
+      <File FileName="Queue.cs" Line="12" Column="26" />
+      <File FileName="UI.cs" Line="11" Column="98" />
+      <File FileName="GameState.cs" Line="195" Column="1" />
+      <File FileName="Position.cs" Line="1" Column="1" />
+      <File FileName="myeasylog.log" Line="1" Column="1" />
+      <File FileName="Grid.cs" Line="1" Column="1" />
+      <File FileName="Tetrominoes/ITetromino.cs" />
+      <File FileName="Tetrominoes/JTetromino.cs" />
+      <File FileName="Tetrominoes/LTetromino.cs" />
+      <File FileName="Tetrominoes/OTetromino.cs" />
+      <File FileName="Tetrominoes/STetromino.cs" />
+      <File FileName="Tetrominoes/TTetromino.cs" />
+      <File FileName="Tetrominoes/ZTetromino.cs" />
+      <File FileName="Score.txt" Line="19" Column="1" />
+      <File FileName="InputController.cs" Line="8" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.6.5HD PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
