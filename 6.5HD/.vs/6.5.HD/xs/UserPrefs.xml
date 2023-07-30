@@ -2,14 +2,14 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Global.cs">
     <Files>
-      <File FileName="Program.cs" Line="98" Column="1" />
-      <File FileName="Global.cs" Line="7" Column="8" />
-      <File FileName="Tetromino.cs" Line="2" Column="2" />
-      <File FileName="Queue.cs" Line="12" Column="26" />
-      <File FileName="UI.cs" Line="11" Column="98" />
-      <File FileName="GameState.cs" Line="195" Column="1" />
+      <File FileName="Program.cs" Line="21" Column="37" />
+      <File FileName="Global.cs" Line="8" Column="1" />
+      <File FileName="Tetromino.cs" Line="1" Column="1" />
+      <File FileName="Queue.cs" Line="31" Column="82" />
+      <File FileName="UI.cs" Line="300" Column="64" />
+      <File FileName="GameState.cs" Line="202" Column="30" />
       <File FileName="Position.cs" Line="1" Column="1" />
       <File FileName="myeasylog.log" Line="1" Column="1" />
       <File FileName="Grid.cs" Line="1" Column="1" />
@@ -20,12 +20,18 @@
       <File FileName="Tetrominoes/STetromino.cs" />
       <File FileName="Tetrominoes/TTetromino.cs" />
       <File FileName="Tetrominoes/ZTetromino.cs" />
-      <File FileName="Score.txt" Line="19" Column="1" />
+      <File FileName="Score.txt" />
       <File FileName="InputController.cs" Line="8" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__" />
+        <State name="__root__">
+          <Node name="6.5.HD">
+            <Node name="6.5HD">
+              <Node name="Global.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/6.4HD/6.5HD.csproj",
+      "projectUniqueName": "/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/6.5HD/6.5HD.csproj",
       "projectName": "6.5HD",
-      "projectPath": "/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/6.4HD/6.5HD.csproj",
+      "projectPath": "/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/6.5HD/6.5HD.csproj",
       "packagesPath": "/Users/hwang/.nuget/packages/",
-      "outputPath": "/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/6.4HD/obj/",
+      "outputPath": "/Users/hwang/Documents/Swinburne/COS20007 Object-Oriented Programming/6.5HD/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/hwang/.nuget/NuGet/NuGet.Config"

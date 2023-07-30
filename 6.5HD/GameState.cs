@@ -199,7 +199,7 @@
             CurrentTetromino = Queue.GetAndUpdate();
             GameOver = false;
             Score = 0;
-            Grid.ClearGrid(); // Assuming you have a ClearGrid() method in the Grid class to reset the grid to an empty state
+            Grid.ClearGrid();
         }
     }
 }
