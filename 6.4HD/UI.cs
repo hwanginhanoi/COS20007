@@ -492,17 +492,17 @@ namespace Custom_Project
             foreach (int score in top5Scores)
             {
                 string scoreText = $"{rank}. {score}";
-                SplashKit.DrawText(scoreText, Color.White, "Jetbrain", 20, highscoreX, yOffset);
+                SplashKit.DrawText(scoreText, Color.White, "Jetbrain", 20, highscoreX + 1, yOffset + 1);
                 switch (rank)
                 {
                     case 1:
-                        SplashKit.DrawText(scoreText, Color.Red, "Jetbrain", 20, highscoreX + 1, yOffset + 1);
+                        SplashKit.DrawText(scoreText, Color.Red, "Jetbrain", 20, highscoreX, yOffset);
                         break;
                     case 2:
-                        SplashKit.DrawText(scoreText, Color.Green, "Jetbrain", 20, highscoreX + 1, yOffset + 1);
+                        SplashKit.DrawText(scoreText, Color.DeepSkyBlue, "Jetbrain", 20, highscoreX, yOffset);
                         break;
                     case 3:
-                        SplashKit.DrawText(scoreText, Color.Blue, "Jetbrain", 20, highscoreX + 1, yOffset + 1);
+                        SplashKit.DrawText(scoreText, Color.Green, "Jetbrain", 20, highscoreX, yOffset);
                         break;
                     default:
                         break;
@@ -510,11 +510,9 @@ namespace Custom_Project
                 yOffset += 26;
                 rank++; // Increment the rank counter for the next score
             }
-
-            
         }
 
-    public void DrawUI()
+        public void DrawUI()
         {
             DrawGameBoard();
             DrawNextTetrominoPreview(_gameState.Queue.NextTetromino); // Draw the next Tetromino preview

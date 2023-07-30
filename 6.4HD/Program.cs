@@ -22,7 +22,7 @@ namespace Custom_Project
             bool isScoreWritten = false;
 
             int level = 1; // Current level
-            double timeToIncreaseDifficulty = 1.0; // Time interval to increase the difficulty (in seconds)
+            double timeToIncreaseDifficulty = 120.0; // Time interval to increase the difficulty (in seconds)
             double timeSinceLastDifficultyIncrease = 0;
 
             const int maximumLevel = 10; // Set the maximum difficulty level
