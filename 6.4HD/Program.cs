@@ -2,7 +2,7 @@ namespace Custom_Project
 {
     public class Program
     {
-        public static void Main()
+        public static void Main(string[] args)
         {
             const int WindowWidth = 900;
             const int WindowHeight = 900;
@@ -19,9 +19,10 @@ namespace Custom_Project
             gameTimer.Start();
 
             bool isGameOver = false;
+            bool isScoreWritten = false;
 
             int level = 1; // Current level
-            double timeToIncreaseDifficulty = 30.0; // Time interval to increase the difficulty (in seconds)
+            double timeToIncreaseDifficulty = 1.0; // Time interval to increase the difficulty (in seconds)
             double timeSinceLastDifficultyIncrease = 0;
 
             const int maximumLevel = 10; // Set the maximum difficulty level
@@ -45,7 +46,7 @@ namespace Custom_Project
                 if (deltaTime >= timeToIncreaseDifficulty && level < maximumLevel)
                 {
                     level++; // Increase the level
-                    gameUI.level++;
+                    gameUI.Level = level;
                     moveDownInterval = initialMoveDownInterval / Math.Sqrt(level); // Reduce the moveDownInterval to increase difficulty
                     timeSinceLastDifficultyIncrease = gameTimer.Elapsed.TotalSeconds; // Update the time of the last difficulty increase
                 }
@@ -91,19 +92,30 @@ namespace Custom_Project
                 {
                     gameUI.GameOverScreen();
 
+                    if (!isScoreWritten)
+                    {
+                        gameUI.GameOverScreen();
+                        using (StreamWriter writetext = new StreamWriter("Score.txt", true))
+                        {
+                            writetext.WriteLine(gameState.Score);
+                        }
+                        isScoreWritten = true; // Set the flag to true indicating that the score has been written
+                    }
+
                     // Handle restart functionality when 'R' key is pressed
                     if (SplashKit.KeyTyped(KeyCode.RKey))
                     {
                         gameState.RestartGame();
                         isGameOver = false;
+                        isScoreWritten = false; // Reset the flag to false for the new game
                         level = 1; // Reset the level to 1
-                        gameUI.level = 1;
+                        gameUI.Level = level;
                         moveDownInterval = initialMoveDownInterval; // Reset the moveDownInterval to its initial value
                         timeSinceLastDifficultyIncrease = gameTimer.Elapsed.TotalSeconds; // Reset the time of the last difficulty increase
                     }
                 }
 
-                SplashKit.RefreshScreen(60);
+                SplashKit.RefreshScreen(120);
             }
 
             SplashKit.CloseWindow("Tetris Game");

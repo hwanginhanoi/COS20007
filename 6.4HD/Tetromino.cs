@@ -1,6 +1,5 @@
 ﻿namespace Custom_Project
 {
-
 	public abstract class Tetromino
 	{
         // Abstract property to represent the different tile positions of the tetromino in different rotation states
